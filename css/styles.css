@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+}
+
+nav{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 0px;
+}
+nav, li{
+    text-align: center;
+    background-color: brown;
+    list-style: none;
+
+
+}
+
+a{
+    color: black;
+    background-color: tomato;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    text-decoration-style: unset;
+
+}
+
+a:hover{
+    background-color: darkgoldenrod;
+    text-emphasis: bold;
+}
+body{
+    background-color: cornsilk;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+article{
+
+    border: 1px;
+    width: auto;
+    margin: 4px;
+    padding: 4px;   
+    text-align: center;
+    background-color:grey;
+    display: inline-block;
+
+
+}
+
+
+
+
+section{
+    margin: 2px;
+}

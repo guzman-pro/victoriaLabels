@@ -2,33 +2,46 @@ h1{
     text-align: center;
 }
 
-nav{
-    padding-top: 8px;
-    padding-bottom: 8px;
-    margin-top: 0px;
-}
-nav, li{
+
+nav ul{
     text-align: center;
-    background-color: brown;
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 
 
 }
 
-a{
+nav a{
     color: black;
-    background-color: tomato;
     margin-left: 20px;
     margin-right: 20px;
     text-decoration: none;
-    text-decoration-style: unset;
 
+}
+
+
+nav li{
+    display: inline-block;
+    padding: 4px 8px;
 }
 
 a:hover{
     background-color: darkgoldenrod;
-    text-emphasis: bold;
+
 }
+
+#menu{
+    padding: 0;
+    text-align: center;
+}
+
+header, footer{
+    padding: 16px;
+    color: #eee;/*rrggbb min:00 max:ff*/
+    background-color: #448;
+}
+
 body{
     background-color: cornsilk;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -36,7 +49,7 @@ body{
 
 article{
 
-    border: 1px;
+    border: 1px solid red;
     width: auto;
     margin: 4px;
     padding: 4px;   
@@ -53,3 +66,4 @@ article{
 section{
     margin: 2px;
 }
+

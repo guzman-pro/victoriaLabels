@@ -4,7 +4,7 @@ h1{
 
 
 nav ul{
-    text-align: center;
+    text-align: right;
     list-style: none;
     margin: 0px;
     padding: 0px;
@@ -14,8 +14,8 @@ nav ul{
 
 nav a{
     color: black;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
     text-decoration: none;
 
 }
@@ -34,6 +34,30 @@ a:hover{
 #menu{
     padding: 0;
     text-align: center;
+}
+
+#navegation{
+    display: inline-block;
+    padding-left: 500px;
+
+}
+
+#title{
+    display: inline-block;
+
+}
+
+#logoTodo{
+    width: 50px;
+    height: 50px;
+
+}
+
+#logoMenu{
+    display: inline-block;
+    align: right;
+    padding: 2px 5px 10px 5px;
+
 }
 
 header, footer{
